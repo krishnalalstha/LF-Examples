@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <array name="Example_title">
+        <item>LinearLayout Example</item>
+        <item>RelativeLayout Example</item>
+        <item>Custom ListItem Example</item>
+        <item>Login Form Example</item>
+        <item>Spinner Example</item>
+        <item>GridView Example</item>
+        <item>ViewPager Example</item>
+        <item>Fragment Example</item>
+        <item>Dialog Examples</item>
+        <item>Custom Dialog Examples</item>
+        <item>Theme and style Example</item>
+        <item>Share,Drawable and Selector Example</item>
+        <item>Json parsing Example</item>
+        <item>Basic Webservice Example </item>
+        <item>Webservice Connect using Volley</item>
+        <item>Json parsing using Gson</item>
+
+
+    </array>
+</resources>
