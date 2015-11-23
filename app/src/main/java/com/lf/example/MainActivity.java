@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         String clickItem = (String) parent.getAdapter().getItem(position);
         Toast.makeText(MainActivity.this, "Position click :" + position + " " + clickItem, Toast.LENGTH_SHORT).show();
-        Intent mIntent=new Intent(MainActivity.this,WebServiceVolleyExample.class);
+        Intent mIntent;
         switch (position) {
             case 0:
                 //go to LinerLayout Example Activoty
@@ -48,9 +48,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 //go to RelativeLayout Example
                 break;
             case 14 :
-
+              mIntent  =new Intent(MainActivity.this,WebServiceVolleyExample.class);
+                startActivity(mIntent);
                 break;
             default:
+
                 break;
         }
 
