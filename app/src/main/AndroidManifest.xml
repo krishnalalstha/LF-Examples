@@ -25,6 +25,7 @@
             android:label="Android Examples" />
         <activity android:name=".WebServiceVolleyExample" />
         <activity android:name=".RecyclerViewExample"></activity>
+        <activity android:name=".ViewPagerActivity"/>
     </application>
 
 </manifest>
