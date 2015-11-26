@@ -47,8 +47,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 1:
                 //go to RelativeLayout Example
                 break;
-            case 14 :
-              mIntent  =new Intent(MainActivity.this,WebServiceVolleyExample.class);
+            case 14:
+                mIntent = new Intent(MainActivity.this, WebServiceVolleyExample.class);
+                startActivity(mIntent);
+                break;
+            case 16:
+                mIntent = new Intent(MainActivity.this, RecyclerViewExample.class);
                 startActivity(mIntent);
                 break;
             default:
