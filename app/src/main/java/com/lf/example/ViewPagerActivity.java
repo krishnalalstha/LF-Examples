@@ -1,6 +1,7 @@
 package com.lf.example;
 
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 
@@ -12,7 +13,7 @@ import java.util.ArrayList;
 public class ViewPagerActivity extends AppCompatActivity {
 
     ViewPager myviewpager;
-   // TabLayout mTabLayout;
+    TabLayout mTabLayout;
     ArrayList<String> mInfoList = new ArrayList<String>() {
 
         {
@@ -28,11 +29,11 @@ public class ViewPagerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_pager);
-        //mTabLayout = (TabLayout) findViewById(R.id.tabLayout);
+        mTabLayout = (TabLayout) findViewById(R.id.tablayout);
         myviewpager = (ViewPager) findViewById(R.id.myviewpager);
         ViewpagerListAdapter mViewpagerListAdapter = new ViewpagerListAdapter(getSupportFragmentManager(), mInfoList);
         myviewpager.setAdapter(mViewpagerListAdapter);
-       // mTabLayout.setTabsFromPagerAdapter(mViewpagerListAdapter);
+        mTabLayout.setupWithViewPager(myviewpager);
 
     }
 }
