@@ -55,6 +55,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 mIntent = new Intent(MainActivity.this, RecyclerViewExample.class);
                 startActivity(mIntent);
                 break;
+            case 17:
+                mIntent = new Intent(MainActivity.this,MapsActivity.class);
+                startActivity(mIntent);
+                break;
             default:
 
                 break;
