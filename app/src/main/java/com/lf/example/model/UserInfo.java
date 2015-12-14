@@ -9,7 +9,7 @@ public class UserInfo {
     @SerializedName("name")
     public String userName;
 
-
+    @SerializedName("address")
     public String address;
 
 }

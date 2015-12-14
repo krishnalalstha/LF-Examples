@@ -16,11 +16,13 @@
         <item>Theme and style Example</item>
         <item>Share,Drawable and Selector Example</item>
         <item>Json parsing Example</item>
-        <item>Basic Webservice Example </item>
+        <item>Basic Webservice Example</item>
         <item>Webservice Connect using Volley</item>
         <item>Json parsing using Gson</item>
         <item>Recycler View Example</item>
+        <item>Viewpager Example</item>
         <item>Google Map Example</item>
+
 
 
     </array>
