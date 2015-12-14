@@ -26,6 +26,7 @@
         <activity android:name=".WebServiceVolleyExample" />
         <activity android:name=".RecyclerViewExample"></activity>
         <activity android:name=".ViewPagerActivity"/>
+        <activity android:name=".CameraActivity"/>
     </application>
 
 </manifest>
