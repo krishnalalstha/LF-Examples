@@ -20,8 +20,14 @@
         <item>Webservice Connect using Volley</item>
         <item>Json parsing using Gson</item>
         <item>Recycler View Example</item>
-        <item>View pager Example</item>
+
+
+
+        <item>Viewpager Example</item>
+        <item>Google Map Example</item>
+        <item>Notification Example</item>
         <item>Camera Example</item>
+
 
 
     </array>

@@ -59,6 +59,18 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 mIntent = new Intent(MainActivity.this, ViewPagerActivity.class);
                 startActivity(mIntent);
                 break;
+            case 18:
+                mIntent = new Intent(MainActivity.this, MapsActivity.class);
+                startActivity(mIntent);
+                break;
+            case 19:
+                mIntent = new Intent(MainActivity.this, NotificationExampleActivity.class);
+                startActivity(mIntent);
+                break;
+            case 20:
+                mIntent = new Intent(MainActivity.this, CameraActivity.class);
+                startActivity(mIntent);
+                break;
             default:
 
                 break;
